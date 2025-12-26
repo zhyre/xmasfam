@@ -98,17 +98,18 @@ setTimeout(() => {
 
 function addOrnaments() {
     const ornamentsContainer = document.getElementById('ornaments');
+    // Using percentages for responsive positioning
     const ornamentPositions = [
-        { top: '80px', left: '140px', color: '#FF0000' },
-        { top: '100px', left: '110px', color: '#FFD700' },
-        { top: '100px', left: '180px', color: '#FF69B4' },
-        { top: '150px', left: '90px', color: '#00BFFF' },
-        { top: '150px', left: '150px', color: '#FF0000' },
-        { top: '150px', left: '210px', color: '#9370DB' },
-        { top: '210px', left: '70px', color: '#FFD700' },
-        { top: '210px', left: '130px', color: '#FF69B4' },
-        { top: '210px', left: '170px', color: '#00BFFF' },
-        { top: '210px', left: '230px', color: '#FF0000' }
+        { top: '20%', left: '46.67%', color: '#FF0000' },
+        { top: '25%', left: '36.67%', color: '#FFD700' },
+        { top: '25%', left: '60%', color: '#FF69B4' },
+        { top: '37.5%', left: '30%', color: '#00BFFF' },
+        { top: '37.5%', left: '50%', color: '#FF0000' },
+        { top: '37.5%', left: '70%', color: '#9370DB' },
+        { top: '52.5%', left: '23.33%', color: '#FFD700' },
+        { top: '52.5%', left: '43.33%', color: '#FF69B4' },
+        { top: '52.5%', left: '56.67%', color: '#00BFFF' },
+        { top: '52.5%', left: '76.67%', color: '#FF0000' }
     ];
 
     ornamentPositions.forEach((pos, index) => {
@@ -132,17 +133,18 @@ function addOrnaments() {
 
 function addLights() {
     const lightsContainer = document.getElementById('lights');
+    // Using percentages for responsive positioning
     const lightPositions = [
-        { top: '70px', left: '150px' },
-        { top: '95px', left: '120px' },
-        { top: '95px', left: '170px' },
-        { top: '140px', left: '100px' },
-        { top: '140px', left: '200px' },
-        { top: '190px', left: '80px' },
-        { top: '190px', left: '150px' },
-        { top: '190px', left: '220px' },
-        { top: '240px', left: '110px' },
-        { top: '240px', left: '190px' }
+        { top: '17.5%', left: '50%' },
+        { top: '23.75%', left: '40%' },
+        { top: '23.75%', left: '56.67%' },
+        { top: '35%', left: '33.33%' },
+        { top: '35%', left: '66.67%' },
+        { top: '47.5%', left: '26.67%' },
+        { top: '47.5%', left: '50%' },
+        { top: '47.5%', left: '73.33%' },
+        { top: '60%', left: '36.67%' },
+        { top: '60%', left: '63.33%' }
     ];
 
     const colors = ['#FFFF00', '#FF6B00', '#00FF00', '#0099FF', '#FF0099'];
